@@ -1,4 +1,6 @@
-import { useState } from "react"
+
+import React, { useState, useEffect } from 'react';
+import { SafeAreaView, Text, View } from 'react-native';
 
 const AddPatientScreen = ({navigation}) => {
     const [name, setName] = useState('');
@@ -36,3 +38,5 @@ const AddPatientScreen = ({navigation}) => {
         </SafeAreaView>
     );
 }
+
+export default AddPatientScreen;
