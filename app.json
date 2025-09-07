@@ -4,6 +4,6 @@
       "slug": "hosto",
       "platforms": ["ios", "android", "web"],
       "version": "1.0.0",
-      "sdkVersion": "52.0.0"
+      "sdkVersion": "53.0.0"
     }
   }

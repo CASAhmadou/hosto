@@ -36,8 +36,8 @@ const PatientDetailsScreen = ({ route }) => {
       <SafeAreaView style={styles.container}>
         <View style={styles.patientInfo}>
           <Text style={styles.patientName}>{patient.name}</Text>
-          <Text>�ge: {patient.age} ans</Text>
-          <Text>T�l�phone: {patient.phone}</Text>
+          <Text>Age: {patient.age} ans</Text>
+          <Text>Telephone: {patient.phone}</Text>
           <Text>Email: {patient.email}</Text>
           <Text>Adresse: {patient.address}</Text>
         </View>

@@ -9,7 +9,7 @@ import PatientDetailsScreen from './components/PatientDetailsScreen';
 
 const Stack = createStackNavigator();
 
-function App() {
+function dsdApp() {
     useEffect(() => {
       initDB();
       configureNotifications();

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { SafeAreaView, Text, View } from 'react-native';
+import { SafeAreaView, Text, View } from 'react-native-web';
 import { Picker, ScrollView, TouchableOpacity } from "react-native-web";
 
 const AddAppointmentScreen = ({navigation}) => {
